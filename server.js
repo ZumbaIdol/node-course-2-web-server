@@ -55,10 +55,10 @@ app.get('/', (req, res) => {
   });
 });
 
-app.get('/project', (req, res) => {
-  res.render('project.hbs', {
-    pageTitle: 'Project Page',
-    projectMessage: 'Portfolio page here!'
+app.get('/projects', (req, res) => {
+  res.render('projects.hbs', {
+    pageTitle: 'Projects',
+    projectsMessage: 'Portfolio page here!'
   });
 });
 
